@@ -78,7 +78,7 @@ Maka akan didapatkan sebuah paket. Jika dilihat HTML Form yang dikirim maka akan
 Gunakan filter:
 
 ```
-http.basicauth
+http.authbasic
 ```
 
 Akan ditampilkan seluruh paket yang menggunakan **basic authentication** method
@@ -114,7 +114,7 @@ Lalu setelah didekripsi akan didapat username: **kakakgamtenk** dan password: **
 Gunakan filter:
 
 ```
-ftp-data.command = "STOR zipkey.txt" || ftp-data.command "STOR Answer.zip"
+ftp-data.command == "STOR zipkey.txt" || ftp-data.command == "STOR Answer.zip"
 ```
 
 Maka akan muncul paket data FTP mengenai "zipkey.txt" dan "Answer.zip"

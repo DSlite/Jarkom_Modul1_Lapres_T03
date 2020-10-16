@@ -127,7 +127,7 @@ Pertama, follow TCP stream untuk "zipkey.txt" untuk mendapatkan password.
 
 Terlihat bahwa passwordnya adalah **hey997400323051**. Lalu follow TCP stream untuk "Answer.zip" dan simpan.
 
-![Soal 6-3](https://user-images.githubusercontent.com/17781660/96238578-3bc0ba80-0fd1-11eb-875a-724390d4b7aa.png)
+![Soal 6-3](https://user-images.githubusercontent.com/17781660/96273256-b5709c80-1001-11eb-9bf0-110557859f3e.png)
 
 Lalu buka file "Open This.pdf" yang terdapat pada "Answer.zip" menggunakan password **hey997400323051**, dan akan muncul pdf yang dimaksud.
 

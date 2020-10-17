@@ -168,7 +168,7 @@ Jika dilihat paket ke **18**, paket tersebut merupakan respon berhasil koneksi t
 Source IP Address tersebut dapat kita gunakan untuk mengetahui apakah Paket RETR yang dicari menggunakan Microsoft FTP Service. Jadi gunakan filter:
 
 ```
-ftp-data.command contains ""RETR"" && ip.addr == 198.246.117.106
+ftp-data.command contains "RETR" && ip.addr == 198.246.117.106
 ```
 
 ![Soal 8-2](https://user-images.githubusercontent.com/17781660/96239494-5cd5db00-0fd2-11eb-8cea-5a0b31ddf9b3.png)
